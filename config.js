@@ -4,13 +4,13 @@
 export const config = {
     // API configuration
     api: {
-        KEY: 'AIzaSyAiAXPsyu9g_nM1_r-Ba90fmEHGCDX7MP4', // Note: Still using the placeholder Google key here
-        MODEL_NAME: 'gemini-2.5-pro-exp-03-25',
-        AVAILABLE_MODELS: [
-            { id: 'gemini-2.5-pro-exp-03-25', name: 'Gemini 2.5 Pro', provider: 'google' },
-            { id: 'gemini-2.0-flash-thinking-exp-01-21', name: 'Gemini 2.0 Flash Thinking', provider: 'google' },
-            { id: 'gemini-2.0-flash-exp', name: 'Gemini 2.0 Flash', provider: 'google' },
-            { id: 'gemini-2.0-flash-exp-02-05', name: 'Gemini 2.0 Flash (02-05)', provider: 'google' },
+    KEY: 'AIzaSyBjbaSLeKCnO4RVHexxcw0DeZRJrosRAF0', // API TERBARU yang Anda berikan
+    MODEL_NAME: 'gemini-2.0-flash-exp', // Model default yang cepat dan terbaru
+    AVAILABLE_MODELS: [
+            { id: 'gemini-2.0-flash-exp', name: 'Gemini 2.0 Flash (Experimental)', provider: 'google' },
+            { id: 'gemini-2.0-flash-thinking-exp-01-21', name: 'Gemini 2.0 Thinking (Reasoning)', provider: 'google' },
+            { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash (Stable/Fast)', provider: 'google' },
+            { id: 'gemini-1.5-pro', name: 'Gemini 1.5 Pro (Complex Tasks)', provider: 'google' },
             { id: 'qwen/qwen2.5-vl-72b-instruct:free', name: 'Qwen 2.5 VL 72B', provider: 'openrouter', apiKey: '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' },
             { id: 'google/gemma-3-27b-it:free', name: 'Gemma 3 27B', provider: 'openrouter', apiKey: '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' },
             // --- START: Added DeepSeek Model ---
